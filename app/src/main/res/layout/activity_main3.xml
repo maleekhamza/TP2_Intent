@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor odio vel sem dignissim facilisis. Sed nec metus in lorem lobortis auctor tempus non dui. Aenean leo ligula, auctor eget placerat vitae, dignissim eget erat. Suspendisse felis nisi, porta at porta ac, ornare vitae tellus. Phasellus a orci ipsum. Suspendisse rhoncus, enim ac dignissim egestas, nunc erat vehicula tellus, ac tincidunt mauris mi vel diam. Proin nisl tellus, semper vel tortor et, facilisis auctor risus. Quisque faucibus turpis ut porta laoreet. Integer auctor risus ante, ut tempus nibh tincidunt sit amet. Fusce sed sapien hendrerit massa euismod vulputate a et enim. Cras molestie lectus mauris, sit amet mattis magna efficitur quis.
+
+Integer ac finibus urna. Sed ornare luctus sem eget elementum. Nam nec purus sapien. Ut congue ac lorem vel ultricies. Nulla ante ligula, viverra a nunc quis, posuere sollicitudin urna. Ut iaculis imperdiet mauris at consectetur. Aenean blandit blandit mattis. Vestibulum ut interdum lectus. Pellentesque a porttitor purus. Duis vel quam feugiat, scelerisque sapien nec, imperdiet quam. Quisque enim mi, imperdiet at risus eget, vestibulum pellentesque dolor. Donec tempus molestie facilisis. Morbi vitae tortor id tortor suscipit egestas ac vel sem. Nulla ornare, augue vel mollis laoreet, ligula nisl accumsan ligula, a tristique neque mauris id diam.
+
+Donec ex nisi, facilisis consequat pretium ac, finibus at diam. Fusce lacinia, tortor et convallis lacinia, magna mi facilisis orci, vitae pellentesque metus est nec lectus. Mauris ac ipsum quis justo dapibus ultrices ac id ex. Nullam tincidunt augue nec dui facilisis, in lacinia neque pretium. Nulla hendrerit mauris velit, at tristique risus varius gravida. Integer finibus consectetur leo nec tincidunt. Vivamus ullamcorper augue enim, ut egestas ante faucibus a. Phasellus eu blandit purus. Aliquam sodales eros ex, venenatis gravida erat ultrices et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et aliquet est, eget elementum nibh. Donec tincidunt orci a nunc ultricies scelerisque. Aenean pellentesque ex mattis orci varius posuere.
+
+Vivamus luctus tellus dui, a dignissim massa gravida at. Aliquam erat volutpat. Cras efficitur tempus elit quis maximus. Proin mollis diam id pellentesque dictum. Curabitur id ligula ullamcorper, condimentum turpis in, viverra sem. Donec lacinia vitae sem eu molestie. Nullam justo lacus, suscipit eget auctor vehicula, eleifend vitae eros.
+
+Phasellus consequat ultricies ante. Morbi et libero id enim ultrices sollicitudin. Vestibulum maximus eget odio nec sodales. Ut leo leo, porta nec nisl non, lobortis facilisis turpis. Proin egestas sem quis aliquam vehicula. Fusce arcu massa, tincidunt in leo eget, interdum blandit lectus. Nam eget vulputate massa, et convallis orci. Quisque ac tellus ultrices nisl consectetur vehicula. Aenean a risus eu arcu laoreet cursus ut a velit. Sed gravida pharetra aliquet. Etiam a blandit felis. Fusce pharetra dapibus ipsum, ut commodo est malesuada sit amet." />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
